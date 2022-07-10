@@ -1,3 +1,11 @@
+<nav>
+  <ul>
+    <li href="/research/"> Research </li>
+    <li href="/team/"> Research </li>
+    <li href="/media/"> Media </li>   
+  <ul>
+  
+</nav>
 Welcom to Autonomous vehicle Lab at Khalifa University. In this page, we publish our recent results and datasets.
 
 
