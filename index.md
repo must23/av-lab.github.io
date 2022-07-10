@@ -3,9 +3,9 @@ Welcom to Autonomous vehicle Lab at Khalifa University. In this page, we publish
 
 <nav>
   <ul>
-    <li> <a href="/research/"> Research </a> </li>
-    <li> <a href="/media/"> Media </a> </li>   
-    <li> <a href="/team/"> Team </a> </li>
+    <li> <a href="/research"> Research </a> </li>
+    <li> <a href="/media"> Media </a> </li>   
+    <li> <a href="/team"> Team </a> </li>
   </ul>  
 </nav>
 
