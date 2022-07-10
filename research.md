@@ -1,1 +1,3 @@
-
+---
+parmalink: /research/
+---
