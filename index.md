@@ -1,3 +1,6 @@
+
+Welcom to Autonomous vehicle Lab at Khalifa University. In this page, we publish our recent results and datasets.
+
 <nav>
   <ul>
     <li> <a href="/research/"> Research </a> </li>
@@ -5,8 +8,6 @@
     <li> <a href="/team/"> Team </a> </li>
   </ul>  
 </nav>
-
-Welcom to Autonomous vehicle Lab at Khalifa University. In this page, we publish our recent results and datasets.
 
 
 
