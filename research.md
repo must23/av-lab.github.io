@@ -1,4 +1,5 @@
 ---
+title: Research
 parmalink: /research/
 ---
 
