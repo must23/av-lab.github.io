@@ -1,10 +1,11 @@
 <nav>
   <ul>
-    <li href="/research/"> Research </li>
-    <li href="/media/"> Media </li>   
-    <li href="/team/"> Team </li>
+    <li> <a href="/research/"> Research </a> </li>
+    <li> <a href="/media/"> Media </a> </li>   
+    <li> <a href="/team/"> Team </a> </li>
   </ul>  
 </nav>
+
 Welcom to Autonomous vehicle Lab at Khalifa University. In this page, we publish our recent results and datasets.
 
 
