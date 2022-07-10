@@ -1,5 +1,5 @@
 
-Welcom to Autonomous vehicle Lab at Khalifa University. In this page, we publish our recent results and datasets.
+Welcom to Autonomous Vehicle Lab at Khalifa University. In this page, we publish our recent results and datasets.
 
 <nav>
   <ul>
