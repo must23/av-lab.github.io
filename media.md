@@ -1,3 +1,4 @@
 ---
 permalink: /media/
+title: Media
 ---
