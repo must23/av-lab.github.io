@@ -1,8 +1,8 @@
 <nav>
   <ul>
     <li href="/research/"> Research </li>
-    <li href="/team/"> Research </li>
     <li href="/media/"> Media </li>   
+    <li href="/team/"> Team </li>
   <ul>
   
 </nav>
