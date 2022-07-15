@@ -10,7 +10,7 @@ permalink: /tutorials
 * [Follow the interactive course by The Construct](https://www.theconstructsim.com/robotigniteacademy_learnros/ros-courses-library/linux-for-robotics/) 
 
 ### Day 3
-Pre-requisite:
+Pre-requisites:
 
 * [Basics of Linux OS](https://www.hostinger.com/tutorials/linux-commands)
 * [Fundamentals of computer networks](https://www.ibm.com/cloud/learn/networking-a-complete-guide)
