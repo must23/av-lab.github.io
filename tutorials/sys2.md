@@ -1,0 +1,12 @@
+---
+title: Setup AWS
+layout: page
+exclude: true
+permalink: /tutorials/sys2/
+
+---
+# Setup EC2 instances
+Proceed with the instruction from AWS online documentation
+1. [Set up](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html)
+2. [Get started tutorial](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
+3. [Get started tutorial](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
