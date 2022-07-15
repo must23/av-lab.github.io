@@ -12,14 +12,13 @@ author: MK
 
 ### Day 3: Cloud Computing
 Pre-requisites:
-
 * [Basics of Linux OS](https://www.hostinger.com/tutorials/linux-commands)
 * [Fundamentals of computer networks](https://www.ibm.com/cloud/learn/networking-a-complete-guide)
 
 Parts:
 * [What is Amazon Web Server \(AWS\)](/tutorials/sys1)
 * [Setup a clould server using AWS](/tutorials/sys2)
-* [Install a web server on the cloud](/tutorials/sys3)
+* [Back-end and front-end development crash course](/tutorials/sys3)
 
 ### Day 4-6: Robot Operating System
 
