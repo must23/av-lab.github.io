@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 show_menu: true
 ---
-We are part of [KU Center for Autonomous Robotic Systems (KUCARS)](https://www.ku.ac.ae/kucars)
+AV lab is one of the research initiatives  of  [KU Center for Autonomous Robotic Systems (KUCARS)](https://www.ku.ac.ae/kucars) specialized in autonomous vehicle technologies. 
 
 
 # Our Main Campus Lab
