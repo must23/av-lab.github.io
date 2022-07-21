@@ -33,7 +33,7 @@ where `<root directory>` should be replaced by your website root directory. You 
         Options +ExecCGI
         AddHandler cgi-script .cgi .py .sh
         Require all granted
-     </Directory
+     </Directory>
     ```
     It basically says that all files that have extensions `.cgi, .py, .sh` under the CGI directory `/var/www/html/cgi/` should be executable. 
 * Enable CGI module in Apache
