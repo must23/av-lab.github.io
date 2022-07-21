@@ -3,6 +3,7 @@ title: Research
 layout: page
 order: 1
 permalink: /research/
+show_menu: true
 ---
 
 # Publications
