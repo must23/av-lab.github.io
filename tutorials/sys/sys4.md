@@ -47,12 +47,13 @@ In contrast, REST is a set of guidelines that can be implemented as needed, mak
 
 
 <br>
-\* [Material taken form Redhat.com](https://www.redhat.com/en/topics/api/what-is-a-rest-api)
+\* Material taken form [Redhat.com](https://www.redhat.com/en/topics/api/what-is-a-rest-api)
 
 # Using HTTP Methods for RESTful Services
 The HTTP verbs comprise a major portion of our “uniform interface” constraint and provide us the action counterpart to the noun-based resource. The primary or most-commonly-used HTTP verbs (or methods, as they are properly called) are POST, GET, PUT, PATCH, and DELETE. These correspond to create, read, update, and delete (or CRUD) operations, respectively. There are a number of other verbs, too, but are utilized less frequently. Of those less-frequent methods, OPTIONS and HEAD are used more often than others.
 
 Below is a table summarizing recommended return values of the primary HTTP methods in combination with the resource URIs
+
 | HTTP Verb | CRUD | Entire Collection (e.g. /customers) | Specific Item (e.g. /customers/{id}) |
 | --- | --- | --- | --- |
 | POST | Create | 201 (Created), 'Location' header with link to /customers/{id} containing new ID. | 404 (Not Found), 409 (Conflict) if resource already exists.. |
@@ -60,6 +61,7 @@ Below is a table summarizing recommended return values of the primary HTTP metho
 | PUT | Update/Replace | 405 (Method Not Allowed), unless you want to update/replace every resource in the entire collection. | 200 (OK) or 204 (No Content). 404 (Not Found), if ID not found or invalid. |
 | PATCH | Update/Modify | 405 (Method Not Allowed), unless you want to modify the collection itself. | 200 (OK) or 204 (No Content). 404 (Not Found), if ID not found or invalid. |
 | DELETE | Delete | 405 (Method Not Allowed), unless you want to delete the whole collection—not often desirable. | 200 (OK). 404 (Not Found), if ID not found or invalid. |
+
 ## GET
 The HTTP GET method is used to \*\*read\*\* (or retrieve) a representation of a resource. In the “happy” (or non-error) path, GET returns a representation in XML or JSON and an HTTP response code of 200 (OK). In an error case, it most often returns a 404 (NOT FOUND) or 400 (BAD REQUEST).
 

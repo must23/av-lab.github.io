@@ -78,7 +78,7 @@ Areg Karapetyan received the B.S. degree (with honours) in industrial electronic
 <hr>
 <br>
 
-# Alumna
+# Alumni
 * **Dr. Kalyanasundaram (Kalyan) Mathu** [Postdoc]  (Aug 2021 - July 2022): funded under KU-KAIST KKJRC-2019-Trans1
 * **Bushra Al Shehhi** [MSc ECE]  (Summer 2021 - Summer 2022) 
 * **Rashid Alyassi** [RE/MSc CS] (RE: Feb 2021 – June 2022; MSc: Spring 2019 – Fall 2020): funded under CIRA-2020-286 Project / MI-MIT 8474000068 
