@@ -69,6 +69,9 @@ _Designed by Majid Khonji, Supervised by Arjun Sharma_
 - Ability to access to a cloud server (AWS, Google, or your [Linux box at home with dynamic dns address + port forwarding (80 and 22)](https://help.dyn.com/remote-access/getting-started-with-remote-access/))
 - [Fundamentals of REST](/tutorials/s4)
 
+**Parts:**
+* [More on RESTful Communication](/tutorials/s7)
+* Start your mini-project
 
 **Project: RESTful Robot - A Remote Tracking System**
 <p style="color:red; font-weight:bold"> Deadline: 29/7/2022 </p>
@@ -78,7 +81,7 @@ The objective of this exercise is to build a small system that tracks your robot
 More precisely, you should perform the following tasks:
 - Run a Turtlesim simulation. Execute turtlesim_node and  turtle_teleop_key (but you may try more sophisticated simulations as well).
 - Remote server connection: Write a ROS node that reads the x and y coordinates of the robot and sends HTTP POST requests to your cloud. Please use three variables in your code to allow easy configuration, `robot_name`, `server_address`, and `api_freq`  where `api_delay` decides how much delay between subsequent API calls; set it to 1 sec.
-- RESTful  API: your cloud server show following the structure below
+- RESTful  API: your cloud server should follow the structure below
     -  POST: accept a request following  `<server_address>/robot_name/x/y`, where `<robot_name>` is the name that you chose for your ROS node, and x and y are Turtle coordinates. You may implement a python code (or bash script or any language you like) that receives the query from CGI module and append the received coordinates to a file named `<robot_name>_loc.csv`. You can choose any format for the file, but I suggest something like `yyyy-mm-dd hh:mm:ss, x, x` for each line.
     -  GET: `<server_address>/<robot_name>` returns a simple HTML that shows a PNG plot for robot location. You may implement it in python and use [matplotlib](https://matplotlib.org/) to output a PNG plot. You need [`plt.plot`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html) and `plt.savefig(<robot_name>.png)`
 - Test your code with 2-3 of your colleagues and check if your RESTful API is functional
