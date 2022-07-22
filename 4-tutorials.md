@@ -12,7 +12,7 @@ _Designed and delivered by Eyad Shakab, Arjun Sharma, and Dr. Majid Khonji_
 [July 13 - July 22]
 
 ### Day 1-2: Linux Basics
->By Eyad Shaklab:
+_By Eyad Shaklab_
 
 Task:
 * [Follow the interactive course by The Construct](https://www.theconstructsim.com/robotigniteacademy_learnros/ros-courses-library/linux-for-robotics/) 
@@ -38,7 +38,7 @@ _By Arjun Sharma_
 - Day 6 - 7 (morning) slides: [download](ros/Day3-4.pdf)
 
 ### Day 7-8: Cloud Robotics
->Designed by Majid Khonji, Supervised by Arjun Sharma
+_Designed by Majid Khonji, Supervised by Arjun Sharma_
 
 The objective here is to learn how to integrate one or more robots with a custom cloud server so that you can achieve some collaborative functionalities. We will try to perform those tasks using standard Linux tools without resorting fancy custom-made software. The knowledge you gain in this section will be highly transferrable to other domains as well outside robotics.
 
