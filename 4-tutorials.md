@@ -77,8 +77,12 @@ _Designed by Majid Khonji, Supervised by Arjun Sharma_
 <p style="color:red; font-weight:bold"> Deadline: 29/7/2022 </p>
 
 The objective of this exercise is to build a small system that tracks your robots in the cloud. Due to limited time, we will build a simplified system using Turtlebot simulation, but the concept can scale and be applied to any robotic platform. Remember, a robot is simply a computer with sensors and actuators, so you might have a microcontroller (Arduino) connected with a temperature sensor and servo motor and connected to a PC via a serial connection, USB. That is a robot. Increase the number of motors to four, connect a LiDAR and a webcam to the PC, and you get a car capable of autonomous driving. 
+In this project, we have two parts:
+- Cloud server: collects telemetry information from one or more robots
+- Robot(s): runs on your laptop. We have a ROS node that sends POST requests to the server every second to update its location. We will run a simulated robot, but in principle, the same exact code would also run on real robots.
 
-More precisely, you should perform the following tasks:
+
+<u>More precisely, you should perform the following tasks:</u>
 - Run a Turtlesim simulation. Execute turtlesim_node and  turtle_teleop_key (but you may try more sophisticated simulations as well).
 - Remote server connection: Write a ROS node that reads the x and y coordinates of the robot and sends HTTP POST requests to your cloud. Please use three variables in your code to allow easy configuration, `robot_name`, `server_address`, and `api_freq`  where `api_delay` decides how much delay between subsequent API calls; set it to 1 sec.
 - RESTful  API: your cloud server should follow the structure below

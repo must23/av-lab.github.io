@@ -38,10 +38,10 @@ print(x.text)
 
 * If you run `print(x)` you will get HTTP response status code, which follows a standard protocol:
     1.  Informational responses (`100`–`199`)
-    2.  <ins>Successful responses</ins> (`200`–`299`)
-    3.  <ins>Redirection messages</ins> (`300`–`399`)
-    4.  <ins>Client error responses</ins> (`400`–`499`)
-    5.  <ins>Server error responses</ins> (`500`–`599`)
+    2.  Successful responses (`200`–`299`)
+    3.  Redirection messages (`300`–`399`)
+    4.  Client error responses (`400`–`499`)
+    5.  Server error responses (`500`–`599`)
     Check [this link](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#information_responses) for more details.
 * You can replace `x = requests.get(url)` by `x = requests.post(url)` to run a POST request.  POST allows to attach additional content to requests. One famous attachements could be JSON file, a simple text-based data structure for key-value pairs (and more). So, you may modify the above code to attach an a content to your request.
 ```bash
