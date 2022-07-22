@@ -7,8 +7,7 @@ myobj = {'age': 'somevalue'}
 
 
 print("calling " + url)
-x = requests.get(url, json = myobj)
-x = requests.get(url)
+x = requests.post(url, json = myobj)
 
 
 #object_methods = [method_name for method_name in dir(x)

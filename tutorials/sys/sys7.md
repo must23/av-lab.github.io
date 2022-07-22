@@ -12,13 +12,14 @@ To partition API to POST and GET APIs, you need to modify Apache config to inclu
 RewriteCond %{REQUEST_METHOD} ^POST$ [NC]
 RewriteRule robot cgi/test.sh
 ``` 
-The condition specifies how redirect the address based on request type. Check [Apache site](https://httpd.apache.org/docs/current/mod/mod_rewrite.html) for more details about `RewriteCond`. 
+The condition specifies how to redirect the address based on the request type. Check [Apache site](https://httpd.apache.org/docs/current/mod/mod_rewrite.html) for more details about `RewriteCond`. 
 * Restart your Apache server
-* To test POST request, you cannot use your browser easily because the browser operates mainly on GET part of HTTP (unless you use forms to submit data). Try `curl` command (`sudo apt install curl` if you don't have it on your system)
+* To test POST requests, you cannot use your browser easily because the browser operates mainly on GET part of HTTP (unless you create a custom HTML form to submit data). Try `curl` command (`sudo apt install curl` if you don't have it on your system)
 ```bash
 curl -X POST  '<address>/robot'
 ```
-* Check if you receive correct HTML response ()
+* Check if you receive correct HTML response. You can use the same command for GET requests (replacing POST by GET). `curl` is quite simpler than `nc` as you don't need to specify HTTP headers. However, it is good to experience low-level interactions, particularly with HTTP protocol, a text-based protocol intended by design to help humans debug easily without sophisticated parsing tools.
+
 
 
 

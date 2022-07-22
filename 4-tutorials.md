@@ -87,7 +87,7 @@ More precisely, you should perform the following tasks:
 - Test your code with 2-3 of your colleagues and check if your RESTful API is functional
 - Optional: 
     - Create an additional API that shows all robot locations: a GET API `<server_address>/All`.
-  Try to show a [live plot using Javascript](https://canvasjs.com/html5-javascript-dynamic-chart/). 
+    - Try to show a [live plot using Javascript](https://canvasjs.com/html5-javascript-dynamic-chart/). 
 
 **Submission Instruction**:
 - Send an Email to `arjun.sharma at ku.ac.ae`, and CC `majid.khonji at ku.ac.ae`,  titled:
