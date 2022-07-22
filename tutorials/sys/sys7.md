@@ -4,6 +4,7 @@ layout: page
 permalink: /tutorials/s7
 ---
 
+REST APIs use **Uniform Resource Identifiers (URIs) to address resources**. REST API designers should create URIs that convey a REST API's resource model to the potential clients of the API. When resources are named well, an API is intuitive and easy to use.
 
 # Mod Rewrite with POST requests
 To partition API to POST and GET APIs, you need to modify Apache config to include some conditions.
@@ -21,8 +22,31 @@ curl -X POST  '<address>/robot'
 * Check if you receive correct HTML response. You can use the same command for GET requests (replacing POST by GET). `curl` is quite simpler than `nc` as you don't need to specify HTTP headers. However, it is good to experience low-level interactions, particularly with HTTP protocol, a text-based protocol intended by design to help humans debug easily without sophisticated parsing tools.
 
 
+# Variables
+Now, let's use the regex to have a POST URI that takes any number. Replace the RewriteRule by the following:
+```
+RewriteRule ^robot/([0-9]*\.?[0-9]*$) cgi/test.sh?data=$1
+```
+Let's parse it now:
+* `^` indicates the beginning of URI, where `$` marks the end. So `robot/` should be the first sequence of letters. `()` means a group of letters and is also used as a placeholder for variables in `mod_rewrite`. `[0-9]` means any number from 0 to 9, `*` means the previous character type (or block) is repeated once or multiple times. `+` means it is repeated 0 or many times. `\` is a skip letter for special characters like `.`. `?` says the previous char or block occurs zero or exactly one time.
+* Now, test the URI with a POST request
 
+```
+curl -X POST  '<address>/robot/123.23'
+```
+* The output should be
 
+```xml
+<h1>Hello world from NSR 4.0!</h1>
+<h2>My name is XXX </h2>
+<h2> data=123.23 is selected</h2>
+```
+* Try different addresses and see if the regex rule works, well
+```
+curl -X POST  '<address>/robot/123.23'
+curl -X POST  '<address>/robot/532'
+curl -X POST  '<address>/robot/12a3.23'  # Error 404 Not found
+```
 
 
 # Web communication in Python
