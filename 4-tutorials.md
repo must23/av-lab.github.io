@@ -76,30 +76,30 @@ _Designed by Majid Khonji, Supervised by Arjun Sharma_
 **Project: RESTful Robot - A Remote Tracking System**
 <p style="color:red; font-weight:bold"> Deadline: 29/7/2022 </p>
 
-The objective of this exercise is to build a small system that tracks your robots in the cloud. Due to limited time, we will build a simplified system using Turtlebot simulation, but the concept can scale and be applied to any robotic platform. Remember, a robot is simply a computer with sensors and actuators, so you might have a microcontroller (Arduino) connected with a temperature sensor and servo motor and connected to a PC via a serial connection, USB. That is a robot. Increase the number of motors to four, connect a LiDAR and a webcam to the PC, and you get a car capable of autonomous driving. 
+The objective of this exercise is to build a small system that tracks your robots in the cloud. Due to limited time, we will build a simplified system using Turtlebot simulation, but the concept can scale and be applied to any robotic platform. Remember, a robot is simply a computer with sensors and actuators, so you might have a microcontroller (Arduino) connected to a temperature sensor, servo motor, and connected to a PC via a serial connection, USB. That is a legit robot. Increase the number of motors to four, connect a LiDAR and a webcam to the PC, and you get a car capable of autonomous driving. 
 In this project, we have two parts:
-- Cloud server: collects telemetry information from one or more robots
-- Robot(s): runs on your laptop. We have a ROS node that sends POST requests to the server every second to update its location. We will run a simulated robot, but in principle, the same exact code would also run on real robots.
-
+- Cloud server: which collects telemetry information from one or more robots
+- Robot(s): which runs on your laptop. You will write a ROS node that sends POST requests to the server every second to update its location. In this project, you will run a simulated robot, but in principle, the same exact code would run on real robots.
 
 <u>More precisely, you should perform the following tasks:</u>
 - Run a Turtlesim simulation. Execute turtlesim_node and  turtle_teleop_key (but you may try more sophisticated simulations as well).
-- Remote server connection: Write a ROS node that reads the x and y coordinates of the robot and sends HTTP POST requests to your cloud. Please use three variables in your code to allow easy configuration, `robot_name`, `server_address`, and `api_freq`  where `api_delay` decides how much delay between subsequent API calls; set it to 1 sec.
+- Remote server connection: Write a ROS node that reads the x and y coordinates of the robot and sends HTTP POST requests to your cloud. Please use three variables in your code to allow easy configuration, `robot_name`, `server_address`, and `api_delay`  where `api_delay` decides how much delay between subsequent API calls; set it to 1 sec.
 - RESTful  API: your cloud server should follow the structure below
-    -  POST: accept a request following  `<server_address>/robot_name/x/y`, where `<robot_name>` is the name that you chose for your ROS node, and x and y are Turtle coordinates. You may implement a python code (or bash script or any language you like) that receives the query from CGI module and append the received coordinates to a file named `<robot_name>_loc.csv`. You can choose any format for the file, but I suggest something like `yyyy-mm-dd hh:mm:ss, x, x` for each line.
-    -  GET: `<server_address>/<robot_name>` returns a simple HTML that shows a PNG plot for robot location. You may implement it in python and use [matplotlib](https://matplotlib.org/) to output a PNG plot. You need [`plt.plot`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html) and `plt.savefig(<robot_name>.png)`
+    -  POST: accept a request following  `<server_address>/robot_name/x/y`, where `<robot_name>` is the name that you chose in the ROS node, and x and y are Turtle coordinates. You may implement a python code (or bash script or any language you like) that receives the query from CGI module and append the received coordinates to a file named `<robot_name>_loc.csv`. You can choose any format for the file, but I suggest something like `yyyy-mm-dd hh:mm:ss, x, x` for each line.
+    -  GET: `<server_address>/<robot_name>` returns a simple HTML that shows a PNG plot for robot location. You may implement it in python and use [matplotlib](https://matplotlib.org/) to output a PNG plot. You may need [`plt.plot`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html) and `plt.savefig(<robot_name>.png)`
 - Test your code with 2-3 of your colleagues and check if your RESTful API is functional
 - Optional: 
     - Create an additional API that shows all robot locations: a GET API `<server_address>/All`.
-    - Try to show a [live plot using Javascript](https://canvasjs.com/html5-javascript-dynamic-chart/). 
+    - Try to show a [live plot using Javascript library](https://canvasjs.com/html5-javascript-dynamic-chart/). 
 
 **Submission Instruction**:
-- Send an Email to `arjun.sharma at ku.ac.ae`, and CC `majid.khonji at ku.ac.ae`,  titled:
+- Send an Email to `eyad.shakla at ku.ac.ae` and `arjun.sharma at ku.ac.ae`, and CC `majid.khonji at ku.ac.ae`,  titled:
     - `[AV-lab mini-project]: <first_name>_<last_name>`
 - In the email, provide the following:
-    - Your `<server_address>`. Make sure it will be running for at least 1 week after your submission, f your server if free. f not, then please  indicate in the email that the server is off.  Our engineer will contact you to switch on the server.
+    - Your `<server_address>`. Make sure the server will be running for at least 1 week after your submission, if your server is free. if not, then please  indicate in the email that the server is off.  Our engineer will contact you to switch on the server.
     - Implemented APIs: indicate which APIs are implemented 
     - Attach your ROS node, named `<first_name>_<last_name>.py` (if implemented in python)
+        - For computer science folks, you may send your git repo address. For those who are not familiar with `git`, you may [watch this tutorial](https://www.youtube.com/watch?v=8JJ101D3knE) and decide by yourself.
 
 
 <br>

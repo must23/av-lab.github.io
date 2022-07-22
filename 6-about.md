@@ -16,7 +16,7 @@ AV lab is a part of  [KU Center for Autonomous Robotic Systems (KUCARS)](https:/
 
 
 
-![Image not found: /assets/figs/ku-building.jpg](/assets/figs/eyad-av.jpg)
+![](/assets/figs/eyad-av.jpg)
 <br>
 
 

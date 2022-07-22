@@ -41,7 +41,7 @@ curl -X POST  '<address>/robot/123.23'
 <h2>My name is XXX </h2>
 <h2> data=123.23 is selected</h2>
 ```
-* Try different addresses and see if the regex rule works, well
+* Try different addresses and see if the regex rule works as intended
 ```
 curl -X POST  '<address>/robot/123.23'
 curl -X POST  '<address>/robot/532'
@@ -55,7 +55,7 @@ It is quite easy to make HTTP requests in python using libraries like `requests`
 * 
 ```python
 import requests
-url = '<ur server dns>/select/select/b'
+url = '<ur server dns>/select/b'
 x = requests.get(url)
 print(x.text)
 ```
@@ -67,7 +67,7 @@ print(x.text)
     4.  Client error responses (`400`–`499`)
     5.  Server error responses (`500`–`599`)
     Check [this link](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#information_responses) for more details.
-* You can replace `x = requests.get(url)` by `x = requests.post(url)` to run a POST request.  POST allows to attach additional content to requests. One famous attachements could be JSON file, a simple text-based data structure for key-value pairs (and more). So, you may modify the above code to attach an a content to your request.
+* You can replace `x = requests.get(url)` by `x = requests.post(url)` to run a POST request.  POST allows attaching additional content to requests. One popular attachment is JSON data, a simple text-based data structure for key-value pairs (and more). So, you may modify the above code to attach content to your request.
 ```bash
 myobj = {'somekey': 'somevalue'}
 x = requests.post(url, json = myobj)
