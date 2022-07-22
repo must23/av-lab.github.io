@@ -8,10 +8,19 @@ show_menu: true
 
 
 ## Robotic System Integration | Summer Course 2022
-### Day 1-2: Linux Basics
-* [Follow the interactive course by The Construct](https://www.theconstructsim.com/robotigniteacademy_learnros/ros-courses-library/linux-for-robotics/) 
+_Designed and delivered by Eyad Shakab, Arjun Sharma, and Dr. Majid Khonji_ 
+[July 13 - July 22]
 
-### Day 3: Cloud Computing
+### Day 1-2: Linux Basics
+>By Eyad Shaklab:
+
+Task:
+* [Follow the interactive course by The Construct](https://www.theconstructsim.com/robotigniteacademy_learnros/ros-courses-library/linux-for-robotics/) 
+* Optional: [Python 3 for Robotics](https://www.theconstructsim.com/robotigniteacademy_learnros/ros-courses-library/python-robotics/)
+
+### Day 3: Cloud Computing Basics
+_Designed by Majid Khonji, Supervised By Eyad Shaklab_
+
 **Pre-requisites:**
 * [Basics of Linux OS](https://www.hostinger.com/tutorials/linux-commands)
 * [Fundamentals of computer networks](https://www.ibm.com/cloud/learn/networking-a-complete-guide)
@@ -22,16 +31,21 @@ show_menu: true
 * [Back-end and front-end development crash course](/tutorials/sys3)
 
 ### Day 4-7: Robot Operating System
-- Day 4 lecture slides: [part 1](ros/Lecture_1_Background.pdf) \|  [part 2](ros/Lecture_2_Introduction.pdf) \| [part 3](ros/Lecture_3_Installation_Setup.pdf)
-- Day 5
-- Day 6
-- Day 7 (morning) 
+_By Arjun Sharma_
+
+- Day 4 slides: [part 1](ros/Lecture_1_Background.pdf) \|  [part 2](ros/Lecture_2_Introduction.pdf) \| [part 3](ros/Lecture_3_Installation_Setup.pdf)
+- Day 5 slides: [part 1](ros/Lecture_4_Run_You_First_ROS_Program.pdf) \| [part 2](ros/Lecture_5_Communicate_with_ROS_Topics.pdf)
+- Day 6 - 7 (morning) slides: [download](ros/Day3-4.pdf)
 
 ### Day 7-8: Cloud Robotics
+>Designed by Majid Khonji, Supervised by Arjun Sharma
+
 The objective here is to learn how to integrate one or more robots with a custom cloud server so that you can achieve some collaborative functionalities. We will try to perform those tasks using standard Linux tools without resorting fancy custom-made software. The knowledge you gain in this section will be highly transferrable to other domains as well outside robotics.
 
 
-#### Day 7 (21/7/2022): 
+#### Day 7 (21/7/2022):
+_Designed by Majid Khonji, Supervised by Arjun Sharma_
+
 **Pre-requisites:**
 * Basics of networking (ports and ips). If you are not familiar about the topic,  [watch this 10 min video](https://www.youtube.com/watch?v=AXrFCbD4-fU) before you proceed
 * Understanding of [HTTP protocol](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) (a simple text based application protocol, running on top of TCP ). [Here is an 8 min video tutorial](https://www.youtube.com/watch?v=eesqK59rhGA)
@@ -47,11 +61,40 @@ The objective here is to learn how to integrate one or more robots with a custom
 * [Debugging REST API](/tutorials/s6)
 
 
-#### Day 8: Custom-made remote tracking system for a robot (22/7/2022)
-**Parts:**
-- Big Picture
-- Debugging your API
-- System 
+#### Day 8: Mini-project (22/7/2022)
+_Designed by Majid Khonji, Supervised by Arjun Sharma_
+
+
+**Pre-requisites**: 
+- Ability to access to a cloud server (AWS, Google, or your [Linux box at home with dynamic dns address + port forwarding (80 and 22)](https://help.dyn.com/remote-access/getting-started-with-remote-access/))
+- [Fundamentals of REST](/tutorials/s4)
+
+
+**Project: RESTful Robot - A Remote Tracking System**
+<p style="color:red; font-weight:bold"> Deadline: 29/7/2022 </p>
+
+The objective of this exercise is to build a small system that tracks your robots in the cloud. Due to limited time, we will build a simplified system using Turtlebot simulation, but the concept can scale and be applied to any robotic platform. Remember, a robot is simply a computer with sensors and actuators, so you might have a microcontroller (Arduino) connected with a temperature sensor and servo motor and connected to a PC via a serial connection, USB. That is a robot. Increase the number of motors to four, connect a LiDAR and a webcam to the PC, and you get a car capable of autonomous driving. 
+
+More precisely, you should perform the following tasks:
+- Run a Turtlesim simulation. Execute turtlesim_node and  turtle_teleop_key (but you may try more sophisticated simulations as well).
+- Remote server connection: Write a ROS node that reads the x and y coordinates of the robot and sends HTTP POST requests to your cloud. Please use three variables in your code to allow easy configuration, `robot_name`, `server_address`, and `api_freq`  where `api_delay` decides how much delay between subsequent API calls; set it to 1 sec.
+- RESTful  API: your cloud server show following the structure below
+    -  POST: accept a request following  `<server_address>/robot_name/x/y`, where `<robot_name>` is the name that you chose for your ROS node, and x and y are Turtle coordinates. You may implement a python code (or bash script or any language you like) that receives the query from CGI module and append the received coordinates to a file named `<robot_name>_loc.csv`. You can choose any format for the file, but I suggest something like `yyyy-mm-dd hh:mm:ss, x, x` for each line.
+    -  GET: `<server_address>/<robot_name>` returns a simple HTML that shows a PNG plot for robot location. You may implement it in python and use [matplotlib](https://matplotlib.org/) to output a PNG plot. You need [`plt.plot`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html) and `plt.savefig(<robot_name>.png)`
+- Test your code with 2-3 of your colleagues and check if your RESTful API is functional
+- Optional: 
+    - Create an additional API that shows all robot locations: a GET API `<server_address>/All`.
+  Try to show a [live plot using Javascript](https://canvasjs.com/html5-javascript-dynamic-chart/). 
+
+**Submission Instruction**:
+- Send an Email to `arjun.sharma at ku.ac.ae`, and CC `majid.khonji at ku.ac.ae`,  titled:
+    - `[AV-lab mini-project]: <first_name>_<last_name>`
+- In the email, provide the following:
+    - Your `<server_address>`. Make sure it will be running for at least 1 week after your submission, f your server if free. f not, then please  indicate in the email that the server is off.  Our engineer will contact you to switch on the server.
+    - Implemented APIs: indicate which APIs are implemented 
+    - Attach your ROS node, named `<first_name>_<last_name>.py` (if implemented in python)
+
+
 <br>
 
 ---

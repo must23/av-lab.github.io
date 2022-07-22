@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 show_menu: true
 ---
-AV lab part of Theme 1 of  [KU Center for Autonomous Robotic Systems (KUCARS)](https://www.ku.ac.ae/kucars) which focuses on persistent surveillance of civil and industrial infrastructures based on unmanned vehicles. For any inquires, please contact our research engineer Eyad Shaklab (Email: eyad.shaklab at ku.ac.ae).
+AV lab is a part of  [KU Center for Autonomous Robotic Systems (KUCARS)](https://www.ku.ac.ae/kucars) under Theme 1 which focuses on persistent surveillance of civil and industrial infrastructures based on unmanned vehicles, lead by Prof. Jorge Dias. For any inquires, please contact our research engineer Eyad Shaklab (Email: eyad.shaklab at ku.ac.ae).
 
 # Our Main Campus Lab
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d232454.3459404653!2d54.131226539611795!3d24.447344928081886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e686120c31b23%3A0x5d25df2e9ffa142e!2sKhalifa%20University!5e0!3m2!1sen!2sae!4v1658386324220!5m2!1sen!2sae" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
