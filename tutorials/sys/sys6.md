@@ -5,7 +5,7 @@ permalink: /tutorials/s6
 ---
 
 # Overview `nc` command
-Netcat is a utility that [reads](https://www.computerhope.com/jargon/r/read.htm) and [writes](https://www.computerhope.com/jargon/w/write.htm) [data](https://www.computerhope.com/jargon/d/data.htm) across [network](https://www.computerhope.com/jargon/n/network.htm) connections, using the [TCP](https://www.computerhope.com/jargon/t/tcpip.htm) or [UDP](https://www.computerhope.com/jargon/u/udp.htm) [protocol](https://www.computerhope.com/jargon/p/protocol.htm). It is designed to be a reliable "back-end" tool, used directly or driven by other programs and [scripts](https://www.computerhope.com/jargon/s/script.htm). At the same time, it is a feature-rich network [debugging](https://www.computerhope.com/jargon/d/debug.htm) and exploration tool since it can create almost any kind of connection you would need and has several interesting built-in capabilities.
+Netcat is a utility that [reads](https://www.computerhope.com/jargon/r/read.htm) and [writes](https://www.computerhope.com/jargon/w/write.htm) [data](https://www.computerhope.com/jargon/d/data.htm) across [network](https://www.computerhope.com/jargon/n/network.htm) connections, using the [TCP](https://www.computerhope.com/jargon/t/tcpip.htm) or [UDP](https://www.computerhope.com/jargon/u/udp.htm) [protocols](https://www.computerhope.com/jargon/p/protocol.htm). It is designed to be a reliable "back-end" tool, used directly or driven by other programs and [scripts](https://www.computerhope.com/jargon/s/script.htm). At the same time, it is a feature-rich network [debugging](https://www.computerhope.com/jargon/d/debug.htm) and exploration tool since it can create almost any kind of connection you would need and has several interesting built-in capabilities.
 Common uses include:
 
 * Simple TCP [proxies](https://www.computerhope.com/jargon/p/proxyser.htm)
@@ -37,7 +37,7 @@ The nc command can be used to make HTTP Requests to the remote web server. Even 
 ```bash
     printf "GET / HTTP/1.1" | nc google.com 80
 ```
-Notice the pipe `|` commands shifts the output of the comands on left hand side is the input of the right hand side.
+Notice the pipe `|` commands shifts the output of the comands on left hand side to the input of the right hand side.
 
 Alternatively the multiple lines for the HTTP Request can be expressed by using the “\\r\\n” end of line.
 ```bash

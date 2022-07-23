@@ -44,7 +44,6 @@ The objective here is to learn how to integrate one or more robots with a custom
 
 
 #### Day 7 (21/7/2022):
-_Designed by Majid Khonji, Supervised by Arjun Sharma_
 
 **Pre-requisites:**
 * Basics of networking (ports and ips). If you are not familiar about the topic,  [watch this 10 min video](https://www.youtube.com/watch?v=AXrFCbD4-fU) before you proceed
@@ -62,8 +61,6 @@ _Designed by Majid Khonji, Supervised by Arjun Sharma_
 
 
 #### Day 8: Mini-project (22/7/2022)
-_Designed by Majid Khonji, Supervised by Arjun Sharma_
-
 
 **Pre-requisites**: 
 - Ability to access to a cloud server (AWS, Google, or your [Linux box at home with dynamic dns address + port forwarding (80 and 22)](https://help.dyn.com/remote-access/getting-started-with-remote-access/))
