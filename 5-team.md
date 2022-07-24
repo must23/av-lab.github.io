@@ -56,7 +56,7 @@ Areg Karapetyan received the B.S. degree (with honours) in industrial electronic
 >MSc ECE; joined Fall 2021; funded under KUCARS Theme 1 
     
 **Mohammed Najy** 
-<img src="/assets/figs/nagy.jpg" width=100 style="float:left; margin: 5px"/>
+<img src="/assets/figs/nagy.png" width=100 style="float:left; margin: 5px"/>
 Mohamed Nagy received a B.S. (2018) in mathematics and computer science from Helwan University, Egypt, and he is recently pursuing an MSc in computer science at Khalifa University, UAE. As part of his career journey, he has been a teaching assistant at Helwan University since 2018 and joined Udacity as a mentor in 2020. His research and teaching concentrate on algorithms, deep learning, and perception for autonomous vehicles. In 2016, he joined the "Mobile Application Launchpad" program by Google, followed by internships and scholarships from leading companies and government entities, namely, Google, Facebook, Udacity, and the Ministry of Communications and Information Technology (MCIT) of Egypt. In 2018, he voluntarily contributed as an Android tutor in One Million Arab Coders, a global initiative, and was cited as one of the best tutors by the Dubai Future Foundation.
 His research interests include object tracking, autonomous systems perception, sensor fusion, and deep learning.
 
