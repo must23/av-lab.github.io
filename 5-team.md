@@ -55,7 +55,9 @@ Areg Karapetyan received the B.S. degree (with honours) in industrial electronic
 **Mustofa Basri**
 >MSc ECE; joined Fall 2021; funded under KUCARS Theme 1 
     
+
 **Mohammed Najy** 
+
 <img src="/assets/figs/nagy.png" width=100 style="float:left; margin: 5px"/>
 Mohamed Nagy received a B.S. (2018) in mathematics and computer science from Helwan University, Egypt, and he is recently pursuing an MSc in computer science at Khalifa University, UAE. As part of his career journey, he has been a teaching assistant at Helwan University since 2018 and joined Udacity as a mentor in 2020. His research and teaching concentrate on algorithms, deep learning, and perception for autonomous vehicles. In 2016, he joined the "Mobile Application Launchpad" program by Google, followed by internships and scholarships from leading companies and government entities, namely, Google, Facebook, Udacity, and the Ministry of Communications and Information Technology (MCIT) of Egypt. In 2018, he voluntarily contributed as an Android tutor in One Million Arab Coders, a global initiative, and was cited as one of the best tutors by the Dubai Future Foundation.
 His research interests include object tracking, autonomous systems perception, sensor fusion, and deep learning.
@@ -64,7 +66,9 @@ Email: mohamed.nagy@ku.ac.ae
 
 >MSc CS; joined Fall 2021; funded under KU-KAIST KKJRC-2019-Trans1
     
+   
 **Bushra Al Shehhi** 
+
 <img src="/assets/figs/bushra.jpg" width=100 style="float:left; margin: 5px"/>
 Bushra Alshehhi has a BSc in electrical engineering, graduated first in her class at Khalifa University in 2019. She is currently pursuing an MSc in electrical and computer engineering at Khalifa University. Her research interests are algorithms and machine learning for solving NP-hard combinatorial optimization problems. In Particular, she is studying various methods for optimally planning electric vehicle charging schedules.  Her interests extend to a passion for teaching programming, she worked as a part-time C++ tutor from 2017-2019 and as a teaching assistant from 2019-2020 at Khalifa University. Her personal projects include building simple classic games such as snakes and brick-breaker. In 2018, She successfully completed the android app development program, a part of the One million Arab coders initiative, for which she built a translator app. Bushra also has an interest in the field of efficient and clean energy. In 2018, she was an intern at FEWA power plant control room tasked to study the problem of transformer sizing and placement in the city to achieve optimal economical cost.  Outside research, Bushra enjoys her black coffee while reading and publishing book reviews in various categories, including philosophy, science and engineering, psychology, and Russian literature. She also enjoys gaming, food blogging, and learning languages. 
  
