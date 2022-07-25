@@ -90,7 +90,7 @@ In this project, we have two parts:
     - Try to show a [live plot using Javascript library](https://canvasjs.com/html5-javascript-dynamic-chart/). 
 
 **Submission Instruction**:
-- Send an Email to `eyad.shakla at ku.ac.ae` and `arjun.sharma at ku.ac.ae`, and CC `majid.khonji at ku.ac.ae`,  titled:
+- Send an Email to `eyad.shaklab at ku.ac.ae` and `arjun.sharma at ku.ac.ae`, and CC `majid.khonji at ku.ac.ae`,  titled:
     - `[AV-lab mini-project]: <first_name>_<last_name>`
 - In the email, provide the following:
     - Your `<server_address>`. Make sure the server will be running for at least 1 week after your submission, if your server is free. if not, then please  indicate in the email that the server is off.  Our engineer will contact you to switch on the server.
