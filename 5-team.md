@@ -51,6 +51,7 @@ Areg Karapetyan received the B.S. degree (with honours) in industrial electronic
 # Graduate Students
 **Murad Mebrahtu**
 
+<img src="/assets/figs/Murad_Official.jpg" width=100 style="float:left; margin: 5px"/>
 Mr. Murad Smreteab received his Bachelor of Science in Computer Engineering from Khalifa University with the highest honors in January 2021. He is currently pursuing his master’s degree in computer science at Khalifa University. His main areas of research are Machine learning, Deep learning, and Autonomous driving. His master’s thesis is focused on pedestrian behavior prediction and safe navigation around pedestrians. Murad is a member of IEEE Eta Kappa Nu at Khalifa university since 2018 and a member of the Golden Key honor society since 2020. Outside the classroom, he occasionally participates in competitions. In 2018, he won second place in the National Huawei ICT competition in UAE and represented the UAE in the middle east ICT competition. Moreover, he won third place in capture the flag group competition in UAE. As an intern, he worked at Gamalearn as Microsoft PowerApps and flow developer. He also has experience as a teaching assistant at khalifa university working as a primary C++ lab instructor and assistant data structures lab instructor. Outside academia  he is actively involved in sports, representing Khalifa university both in football and volleyball.  In his free time he enjoys playing sports and watching movies.
 
 Email: Murad.Mebrahtu@ku.ac.ae
@@ -58,11 +59,12 @@ Email: Murad.Mebrahtu@ku.ac.ae
 >MSc CS; joined Fall 2021; funded under CIRA-2020-286 
     
 **Mustofa Basri**
+
+Mustofa Basri received B.S. degree in Electronics, Information and Communication Engineering from Osaka Sangyo University in 2018 and has work experience in Hitachi High-Tech Fine System Corporation as a Software Engineer in image processing, data collecting for machine learning before joining Khalifa University as a Graduate Master of Science in Electrical and Computer Engineering department. His research project focuses on autonomous navigation in an unstructured environment where he designs a path planner that considers wheel slip. The last book he read was about a guide to utilizing data like a pro, titled “the model thinker” by Scott E. Page, and he recommends it to everyone so that your weeekends will be fully booked. He also enjoys listening to science - economics podcasts on daily basis, and encourage people to send recommendations and collaboration to him at 100059870 at ku.ac.ae or mustofabasri at icloud.com
 >MSc ECE; joined Fall 2021; funded under KUCARS Theme 1 
     
 
 **Mohammed Najy** 
-
 <img src="/assets/figs/nagy.png" width=100 style="float:left; margin: 5px"/>
 Mohamed Nagy received a B.S. (2018) in mathematics and computer science from Helwan University, Egypt, and he is recently pursuing an MSc in computer science at Khalifa University, UAE. As part of his career journey, he has been a teaching assistant at Helwan University since 2018 and joined Udacity as a mentor in 2020. His research and teaching concentrate on algorithms, deep learning, and perception for autonomous vehicles. In 2016, he joined the "Mobile Application Launchpad" program by Google, followed by internships and scholarships from leading companies and government entities, namely, Google, Facebook, Udacity, and the Ministry of Communications and Information Technology (MCIT) of Egypt. In 2018, he voluntarily contributed as an Android tutor in One Million Arab Coders, a global initiative, and was cited as one of the best tutors by the Dubai Future Foundation.
 His research interests include object tracking, autonomous systems perception, sensor fusion, and deep learning.
