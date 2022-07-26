@@ -50,8 +50,11 @@ Areg Karapetyan received the B.S. degree (with honours) in industrial electronic
 
 # Graduate Students
 **Murad Mebrahtu**
+
 <img src="/assets/figs/Murad_Official.jpg" width=100 style="float:left; margin: 5px"/>
+
 Mr. Murad Smreteab received his Bachelor of Science in Computer Engineering from Khalifa University with the highest honors in January 2021. He is currently pursuing his master’s degree in computer science at Khalifa University. His main areas of research are Machine learning, Deep learning, and Autonomous driving. His master’s thesis is focused on pedestrian behavior prediction and safe navigation around pedestrians. Murad is a member of IEEE Eta Kappa Nu at Khalifa university since 2018 and a member of the Golden Key honor society since 2020. Outside the classroom, he occasionally participates in competitions. In 2018, he won second place in the National Huawei ICT competition in UAE and represented the UAE in the middle east ICT competition. Moreover, he won third place in capture the flag group competition in UAE. As an intern, he worked at Gamalearn as Microsoft PowerApps and flow developer. He also has experience as a teaching assistant at khalifa university working as a primary C++ lab instructor and assistant data structures lab instructor. Outside academia  he is actively involved in sports, representing Khalifa university both in football and volleyball.  In his free time he enjoys playing sports and watching movies.
+
 Email: Murad.Mebrahtu@ku.ac.ae
 
 >MSc CS; joined Fall 2021; funded under CIRA-2020-286 
