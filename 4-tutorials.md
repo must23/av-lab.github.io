@@ -33,9 +33,9 @@ _Designed by Majid Khonji, Supervised By Eyad Shaklab_
 ### Day 4-7: Robot Operating System
 _By Arjun Sharma_
 
-- Day 4 slides: [part 1](/tutorials/ros/Lecture_1_Background.pdf) \|  [part 2](/tutorials/ros/Lecture_2_Introduction.pdf) \| [part 3](/tutorials/ros/Lecture_3_Installation_Setup.pdf)
-- Day 5 slides: [part 1](/tutorials/ros/Lecture_4_Run_You_First_ROS_Program.pdf) \| [part 2](/tutorials/ros/Lecture_5_Communicate_with_ROS_Topics.pdf)
-- Day 6 - 7 (morning) slides: [download](/tutorials/ros/Day3-4.pdf)
+- Day 4 slides: [part 1](/4-tutorials/ros/Lecture_1_Background.pdf) \|  [part 2](/4-tutorials/ros/Lecture_2_Introduction.pdf) \| [part 3](/4-tutorials/ros/Lecture_3_Installation_Setup.pdf)
+- Day 5 slides: [part 1](/4-tutorials/ros/Lecture_4_Run_You_First_ROS_Program.pdf) \| [part 2](/4-tutorials/ros/Lecture_5_Communicate_with_ROS_Topics.pdf)
+- Day 6 - 7 (morning) slides: [download](/4-tutorials/ros/Day3-4.pdf)
 
 ### Day 7-8: Cloud Robotics
 _Designed by Majid Khonji, Supervised by Arjun Sharma_
