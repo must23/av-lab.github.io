@@ -4,7 +4,7 @@
 
 layout: home
 ---
-![](assets/figs/banner-small.png)
+![](assets/img/banner-small.png)
 <br>
 
 # Welcome
@@ -19,4 +19,4 @@ Safety assurance is a significant barrier to deploying autonomous vehicles (AVs)
 
 
 
-[![](assets/figs/sys-summer-2022.png)](tutorials)
+[![](assets/img/sys-summer-2022.png)](tutorials)

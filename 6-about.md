@@ -41,27 +41,27 @@ The first phase of AV lab involves multiple research projects:
     - Duration: Jul 2020 – June 2023                                                                                                                    
     - Budget: AED 2,760,000 (USD 751,423.80)                                                                              
     - Grant ref: CIRA-2020-286
-    <img src="/assets/figs/anu.jpg" class="logo"/>
+    <img src="/assets/img/anu.jpg" class="logo"/>
     - Sponsor: Khalifa University, UAE, in collaboration with the Australian National University (ANU)
 - Project Title: “Development of Autonomous Driving Electric Vehicle Based on Infrastructure Sensing”
     - Duration: Aug 2019 – July 2022
     - Budget: AED 2,760,000 (USD 751,423.80)                                                                              
     - Grant ref: KKJRC-2019-Trans1
-    <img src="/assets/figs/kaist.jpeg" class="logo"/>
+    <img src="/assets/img/kaist.jpeg" class="logo"/>
     - Sponsor: Khalifa University, UAE, in collaboration with KAIST, South Korea
 
 - Project Title: “Multi-vehicle Coordination with Bounded Risk” 
     - Duration: April 2018 – Nov 2020
     - Budget: AED 2,095,847 (USD 570,609)
     - Grant Ref: MM2018-002
-    <img src="/assets/figs/csail.png" class="logo"/>
+    <img src="/assets/img/csail.png" class="logo"/>
     - Sponsor: Masdar Institute, Khalifa University, UAE, in collaboration with [Mers group](https://www.csail.mit.edu/research/model-based-embedded-and-robotics-systems-group), CSAIL, MIT
 
 
 
 
 
-<img src="/assets/figs/av-route.png" class="img-right" width=300/>
+<img src="/assets/img/av-route.png" class="img-right" width=300/>
 
 # Phase 2
 The second phase of KU-AV Lab includes the following interconnected projects:
@@ -72,7 +72,7 @@ The second phase of KU-AV Lab includes the following interconnected projects:
 * Smart Campus Project – To install a 5G network and additional sensors on campus to provide V2X connectivity for enhanced safety. 
 * Outreach – Competitions, training (e.g. Al Nokbha Associated), and providing test facilities to UAE entities (e.g., DMT, RTA) 
 
-<img src="/assets/figs/eyad-av.jpg" width=300 class="img-right" />
+<img src="/assets/img/eyad-av.jpg" width=300 class="img-right" />
 
 For any inquires, please contact our research engineer Eyad Shaklab:
 Email: eyad.shaklab at ku.ac.ae
