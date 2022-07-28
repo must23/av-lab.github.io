@@ -8,7 +8,7 @@ layout: home
 <br>
 
 # Welcome
-Welcome to the Autonomous Vehicle Lab (AV-Lab) at Khalifa University! Our research focuses on Autonomous Vehicle (AV) technologies and the integration aspects into smart cities.
+Welcome to the Autonomous Vehicle Lab (AV-Lab) at [Khalifa University!](https://ku.ac.ae) Our research focuses on Autonomous Vehicle (AV) technologies and the integration aspects into smart cities.
 
 Safety assurance is a significant barrier to deploying autonomous vehicles (AVs) on a massive scale. Technical challenges arise from the uncertain environment, such as road and weather conditions, behavioral uncertainty of pedestrians and surrounding vehicles, and modeling inaccuracies. Our research direction is constructed around the following thoughts:
 
