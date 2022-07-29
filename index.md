@@ -33,6 +33,9 @@ Our research revolves around the following questions:
     clear:right;
     float:right;
 }
+.banner:hover{
+    opacity:0.8;
+}
 .video{
     margin:0;
     margin-bottom: 0px;
@@ -49,6 +52,9 @@ Our research revolves around the following questions:
     clear:right;
     float:right;
     }
+.ads:hover{
+    opacity:0.8;
+}
 .sum{
     color:#838996;
     background-color:#f5f5f5;
@@ -56,8 +62,12 @@ Our research revolves around the following questions:
     padding:20px;
     /*margin:0px; */
     }
+.sum:hover{
+    background-color:#DCDCDC;
+    background-color:#f8f8ff;
+}
 a{
-    color:black;
+    color: black;
 }
 
 @media (max-width: 600px) {
