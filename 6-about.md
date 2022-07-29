@@ -8,9 +8,10 @@ show_menu: true
 
 
 AV-lab is part of  [KU Center for Autonomous Robotic Systems (KUCARS)](https://www.ku.ac.ae/kucars), a research center dedicated to 1) Robotics for Infrastructure Inspection, 2) Robotics for Extreme Environments, 3) Robotics for Industrial Applications. AV-lab work scope falls under Theme 1, on persistent surveillance of civil and industrial infrastructures based on unmanned vehicles, led by Prof. Jorge Dias.
+We are currently starting the 2nd phase of AV Lab. 
 
 # Phase 1
-The first phase of AV lab involves multiple research projects:
+The first phase of AV lab involved multiple research projects:
 - Project Title: “Risk-Aware Narrow AI for Autonomous Vehicles”
     - Duration: Jul 2020 – June 2023                                                                                                                    
     - Budget: AED 2,760,000 (USD 751,423.80)                                                                              
@@ -35,11 +36,10 @@ The first phase of AV lab involves multiple research projects:
 
 
 
-<img src="/assets/img/av-route.png" class="img-right" width=300/>
 
 # Phase 2
+<img src="/assets/img/av-route.png" class="img-right" width=300/>
 The second phase of KU-AV Lab includes the following interconnected projects:
-
 * R&D Program to address safety and operational issues for AV implementation in the Abu Dhabi and UAE road network. 
 * A Passenger Service on the route shown in the figure
 * An AV Data Center with datasets collected on the KU-AV Lab routes for training and testing AI-driven algorithms. The data collection will be done during the timetabled passenger service runs,
@@ -83,7 +83,10 @@ Lab R03023, R Bldg.3F, Main Campus
 }
 @media (min-width: 600px) {
     .img-right{
-        float: right
+        float: right;
+        clear: right;
+        width: 300px;
+        margin-bottom: 10px;
     }
     .logo{
         width: 150px;

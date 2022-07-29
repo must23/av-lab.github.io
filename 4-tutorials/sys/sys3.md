@@ -56,6 +56,7 @@ Flask has it's own lightweight web server, but it is not suitable for production
 You may try [Django framework that allows python  for backend development using python](https://www.w3schools.com/django/)
 * [Install Django server on your EC2 instance ](https://docs.djangoproject.com/en/4.0/topics/install/)
 * [Go through Django tutorials](https://www.w3schools.com/django/)
+
 ### PHP
 PHP is an old technology for back-end development and is tightly integrated with Apache. (I am personally not a big fan of PHP though.). Follow video below [`Learn PHP in Under 15 Minutes!`](https://www.youtube.com/embed/ysJjgzcZOPY) and run experiments in your AWS server.
 
