@@ -11,6 +11,7 @@ show_menu: true
 _Designed and delivered by Eyad Shakab, Arjun Sharma, and Dr. Majid Khonji_ 
 [July 13 - July 22]
 
+This high-level course teaches the basics of system integration using Linux OS and Robot Operating System (ROS). The objective is to build technical maturity and problem-solving skills to deal with diverse software efficiently and in a timely manner to get the task done. The course targets audiences from computer science (CS) backgrounds as well as those from other engineering disciplines as long as they are curious to learn beyond the instructions provided. For CS majors, the course will be more like a revision of basics but at the same time integrates different approaches that the student might not have been exposed to together.
 ### Day 1-2: Linux Basics
 _By Eyad Shaklab_
 
@@ -22,8 +23,8 @@ Task:
 _Designed by Majid Khonji, Supervised By Eyad Shaklab_
 
 **Pre-requisites:**
-* [Basics of Linux OS](https://www.hostinger.com/tutorials/linux-commands)
-* [Fundamentals of computer networks](https://www.ibm.com/cloud/learn/networking-a-complete-guide)
+* [Basics of Linux OS](https://www.hostinger.com/tutorials/linux-commands){:target="_blank"}
+* [Fundamentals of computer networks](https://www.ibm.com/cloud/learn/networking-a-complete-guide){:target="_blank"}
 
 **Parts:**
 * [What is Amazon Web Server \(AWS\)](/tutorials/sys1)
@@ -40,15 +41,15 @@ _By Arjun Sharma_
 ### Day 7-8: Cloud Robotics
 _Designed by Majid Khonji, Supervised by Arjun Sharma_
 
-The objective here is to learn how to integrate one or more robots with a custom cloud server so that you can achieve some collaborative functionalities. We will try to perform those tasks using standard Linux tools without resorting fancy custom-made software. The knowledge you gain in this section will be highly transferrable to other domains as well outside robotics.
+The objective here is to learn how to integrate one or more robots with a custom cloud server so that you can achieve some collaborative functionalities. We will try to perform those tasks using standard Linux tools avoiding fancy custom-made software as much as possible. The goal is to build a level of technical maturity at a system level that is generic enough to be applicable across domains. The knowledge you gain in this section will be highly transferrable to other domains outside robotics. **It is important to highlight that the tutorial given here is by no mean the most efficient way to develop a production-ready REST API**.
 
 
 #### Day 7 (21/7/2022):
 
 **Pre-requisites:**
-* Basics of networking (ports and ips). If you are not familiar about the topic,  [watch this 10 min video](https://www.youtube.com/watch?v=AXrFCbD4-fU) before you proceed
-* Understanding of [HTTP protocol](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) (a simple text based application protocol, running on top of TCP ). [Here is an 8 min video tutorial](https://www.youtube.com/watch?v=eesqK59rhGA)
-* Domain Name System (DNS), an application layer protocol. [Here is short video tutorial](https://www.youtube.com/watch?v=mpQZVYPuDGU)
+* Basics of networking (ports and ips). If you are not familiar about the topic,  [watch this 10 min video](https://www.youtube.com/watch?v=AXrFCbD4-fU){:target="_blank"} before you proceed
+* Understanding of [HTTP protocol](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol){:target="_blank"} (a simple text based application protocol, running on top of TCP ). [Here is an 8 min video tutorial](https://www.youtube.com/watch?v=eesqK59rhGA){:target="_blank"}
+* Domain Name System (DNS), an application layer protocol. [Here is short video tutorial](https://www.youtube.com/watch?v=mpQZVYPuDGU){:target="_blank"}
 * A working installation of Apache web server on your AWS instance from Day 3
   
 
@@ -57,7 +58,7 @@ The objective here is to learn how to integrate one or more robots with a custom
 
 * [Fundamentals of Web API: REST](/tutorials/s4)
 * [Building your first API using Common gateway Interface (CGI) on Apache 2](/tutorials/s5)
-* [Debugging REST API](/tutorials/s6)
+* [Debugging REST API on basic level](/tutorials/s6)
 
 
 #### Day 8: Mini-project (22/7/2022)

@@ -40,24 +40,27 @@ To refresh your knowledge on front-end development, you may go through the 4 par
 
 # Back-end Development
 Back-end refers to the server side of web development. In other words, the server can serve multiple clients (or computers). Although HTML/CSS/JS provides a rich user interface, it runs entirely on clients' machines; in other words, it is completely decentralized and agnostic of different clients, which is a limiting factor. What if you want to perform some computation that relies on multiple clients? Say you want to show how many items are available in stock based on online customer records. Then you would need a `server` that aggregates the computation. LAMP (Linux, Apache, MySQL, PHP) is a software stack that allows running server-side applications using primarily PHP language (and another language),  along with MySQL database and Apache server, which orchestrates HTTP communication.
+
+In the next classes, we will learn how to develop a simple back-end for your robotic applications. By simple we mean using basic commands and tools in Linux avoiding specialized software and libraries as much as possible.
+
 ## Optional
-### PHP
+### Native Python Server
+Django and LAMP are technologies for back-end development that involves lots functionalities and performs security checks. If you don't need all these, and you want a simple server for prototype, you may use ptyhon's native [`http.server` ](https://docs.python.org/3/library/http.server.html) library. Below is a short video tutorial.
 
-* Enter your AWS server
-* Follow video below `Learn PHP in Under 15 Minutes!`
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ysJjgzcZOPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-For more in-depth tutorial, you may follow [W3 School tutorial](https://www.w3schools.com/php/default.asp).
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hFNZ6kdBgO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### Flask
+Flask is a small and lightweight Python web framework that provides useful tools and features that make creating web applications in Python easier. It gives developers flexibility and is a more accessible framework for new developers since you can build a web application quickly using only a single Python file. Here is a [video tutorial](https://www.youtube.com/watch?v=MwZwr5Tvyxo&t=15s). 
+Flask has it's own lightweight web server, but it is not suitable for production. You can run Apache with Flask by enabling `mod_wsgi`
 
 ### Django
 You may try [Django framework that allows python  for backend development using python](https://www.w3schools.com/django/)
 * [Install Django server on your EC2 instance ](https://docs.djangoproject.com/en/4.0/topics/install/)
 * [Go through Django tutorials](https://www.w3schools.com/django/)
+### PHP
+PHP is an old technology for back-end development and is tightly integrated with Apache. (I am personally not a big fan of PHP though.). Follow video below [`Learn PHP in Under 15 Minutes!`](https://www.youtube.com/embed/ysJjgzcZOPY) and run experiments in your AWS server.
+
+For more in-depth tutorial, you may follow [W3 School tutorial](https://www.w3schools.com/php/default.asp).
 
 
-### Native Python Server
-Django and LAMP are technologies for back-end development that involves lots functionalities and performs security checks. If you don't need all these, and you want a simple server for prototype, you may use ptyhon's native [`http.server` ](https://docs.python.org/3/library/http.server.html) library. Below is a short video tutorial.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hFNZ6kdBgO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
