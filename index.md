@@ -4,9 +4,9 @@
 
 layout: home
 ---
-<h1 style="margin-bottom:0px">Autonomous Vehicle Lab </h1>
+<h1 class='av-title'>Autonomous Vehicle Lab </h1>
 <img class='banner'/>
-<iframe src="https://youtube.com/embed/k4qmW9vgAio" class='video' frameborder="0"> </iframe>
+<iframe class='video' src="https://youtube.com/embed/k4qmW9vgAio"  frameborder="0"> </iframe>
 <a href="tutorials"><img class="ads" src="/assets/img/sys-summer-2022.jpg"/></a>
 <p class="sum">
 Welcome to the Autonomous Vehicle Lab (AV-Lab) at <a href="https://ku.ac.ae">Khalifa University</a>! Our research focuses on Autonomous Vehicle (AV) technologies, safety and the integration aspects into smart cities.
@@ -21,6 +21,9 @@ Our research revolves around the following questions:
 
 
 <style>
+.av-title{
+    margin-bottom:0px;
+}
 .banner{
     content: url("/assets/img/gen-small.jpg");
     width:40%; 
