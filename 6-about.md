@@ -4,32 +4,6 @@ title: About
 permalink: /about/
 show_menu: true
 ---
-<style>
-.logo{
-    margin: 5px;
-    width: 200px;
-    float: right;
-}
-@media (max-width: 600px) {
-    .img-right{
-        float: none;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .logo{
-        width: 30%;
-    }
-}
-@media (min-width: 600px) {
-    .img-right{
-        float: right
-    }
-    .logo{
-        width: 200px;
-    }
-}
-</style>
 
 
 
@@ -54,7 +28,7 @@ The first phase of AV lab involves multiple research projects:
     - Duration: April 2018 – Nov 2020
     - Budget: AED 2,095,847 (USD 570,609)
     - Grant Ref: MM2018-002
-    <img src="/assets/img/csail.png" class="logo"/>
+    <img src="/assets/img/csail.png"  class="logo"  />
     - Sponsor: Masdar Institute, Khalifa University, UAE, in collaboration with [Mers group](https://www.csail.mit.edu/research/model-based-embedded-and-robotics-systems-group), CSAIL, MIT
 
 
@@ -90,3 +64,29 @@ Lab R03023, R Bldg.3F, Main Campus
 
 
 
+<style>
+.logo{
+    margin: 5px;
+    width: 200px;
+    float: right;
+}
+@media (max-width: 600px) {
+    .img-right{
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo{
+        width: 30%;
+    }
+}
+@media (min-width: 600px) {
+    .img-right{
+        float: right
+    }
+    .logo{
+        width: 150px;
+    }
+}
+</style>
