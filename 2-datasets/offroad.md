@@ -1,5 +1,5 @@
 ---
-title: offroad
+title: Offroad Dataset
 layout: page
 permalink: /datasets/offroad/
 show_menu: true
