@@ -5,4 +5,4 @@ permalink: /datasets/
 show_menu: true
 ---
 
-# <a href="/datasets/offroad/">Off-Road Open Desert Trail Detection (O2DTD) Dataset</a>
+# <a href="/2-datasets/offroad/">Off-Road Open Desert Trail Detection (O2DTD) Dataset</a>
