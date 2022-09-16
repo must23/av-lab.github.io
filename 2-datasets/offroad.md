@@ -42,3 +42,4 @@ Table II:  Ground truth annotation details for the O2DTD dataset
 - For ground truth annotation details of the O2DTD dataset, please see Table II. 
 - Once the model is trained, evaluate it using the images and ground truth labels provided in the “Test” folder.
 
+_Credit: Dr. Bilal Hassan and Hamad Al Remeithi_
