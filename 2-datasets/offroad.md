@@ -14,7 +14,7 @@ Table I: Summary of the proposed off-road open desert trail detection (O2DTD) da
 
 |Type|Original Images|Labels|Split Ratio|
 | :-: | :-: | :-: | :-: |
-|||RGB|<p>Single</p><p>Channel</p>|Train (70%)|Val (10%)|Test (20%)|
+|||RGB|Single     Channel|Train (70%)|Val (10%)|Test (20%)|
 |Dawn|813|813|813|569|81|163|
 |Morning|865|865|865|606|87|172|
 |Afternoon|922|922|922|645|92|185|
