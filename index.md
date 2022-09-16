@@ -14,7 +14,7 @@ Welcome to the Autonomous Vehicle Lab (AV-Lab) at <a href="https://ku.ac.ae">Kha
 Our research revolves around the following questions:
 - How can we build safety within and around the core components of AV decision-making pipeline?
 - How can each component reasonably report and parse uncertainty from dependent ones in an efficient and explainable manner?
-- How can we build decision-making schemes that take the best out of the machine learning community and the rigor of theoretical computer science to achieve provably safer schemes without sacrificing efficiency?
+- How can we build decision-making schemes that take the best out of the machine learning community and the rigor of theoretical computer science to achieve provably safe schemes?
 - What are the ways to exploit enabler technologies such as vehicle-to-everything (V2X) to build multi-agent solutions to realistic problems?
 
 

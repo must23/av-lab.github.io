@@ -8,7 +8,10 @@ show_menu: true
 
 
 AV-lab is part of  [KU Center for Autonomous Robotic Systems (KUCARS)](https://www.ku.ac.ae/kucars), a research center dedicated to 1) Robotics for Infrastructure Inspection, 2) Robotics for Extreme Environments, 3) Robotics for Industrial Applications. AV-lab work scope falls under Theme 1, on persistent surveillance of civil and industrial infrastructures based on unmanned vehicles, led by Prof. Jorge Dias.
-We are currently starting the 2nd phase of AV Lab. 
+
+The AV Lab is transitioning from phase 1 to phase 2, as illustrated below.
+
+
 
 # Phase 1
 The first phase of AV lab involved multiple research projects:
