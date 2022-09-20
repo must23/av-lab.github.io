@@ -15,7 +15,7 @@ O2DTD is the first dataset on desert freespace detection, collected with six    
 <br>
 
 <!-- # <a href="/datasets/shuttle/">Off-Road Open Desert Trail Detection (O2DTD) Dataset</a> -->
-# Autonomous Shuttle Dataseet @ Khalifa University, UAE (COMING SOON)
+# Autonomous Shuttle Dataset @ Khalifa University, UAE (COMING SOON)
 The dataset includes unlabeled data (LiDARs, Monochrome Cameras) captured from an EasyMile Gen2 Autonomous Shuttle that is deployed in Khfalia University, SAN Campus, UAE.
 
 <br>
