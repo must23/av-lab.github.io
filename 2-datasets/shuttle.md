@@ -8,7 +8,7 @@ show_menu: false
 <h1 style="text-align:center"> <a href="https://kudrive.ku.ac.ae/oc-shib/index.php/s/wQ0Sv6te1D85s6A"> Download here </a></h1>
 
 
-The dataset includes around twenty minutes of unlabeled data (A set of 8 LiDARs, Monochrome Cameras, IMU, GPS, etc.) captured from an EasyMile Gen2 Autonomous Shuttle that is deployed in Khalifa University, SAN Campus, UAE. The vehicle is driving autonomously in a mixed traffic site inside the university campus, featuring different types of vehicles (sedans, SUVs, buses) as well as pedestrians on sidewalks, crossings, and on the road.
+The dataset includes around twenty minutes of unlabeled data (A set of 8 LiDARs, Monochrome Cameras, IMU, GPS) captured from an EasyMile Gen2 Autonomous Shuttle that is deployed in Khalifa University, SAN Campus, UAE. The vehicle is driving autonomously in a mixed traffic site inside the university campus, featuring different types of vehicles (sedans, SUVs, buses) as well as pedestrians on sidewalks, crossings, and on the road.
 Data provided in a rosbag, with all transforms between sensors recorded.
 
 Table I: Topics and datatypes
