@@ -36,7 +36,7 @@ Areg Karapetyan received the B.S. degree (with honours) in industrial electronic
 **Dr. Bilal Hassan**
 >Postdoctoral Fellow
 
-<img src="/assets/img/BH.jpg"/>
+<img src="/assets/img/BH.png"/>
 Bilal Hassan received the Ph.D. degree in Pattern Recognition and Intelligent Systems at Beihang University, China, in 2022. He is currently a Postdoctoral Fellow at Khalifa University, UAE. His research interest lies in computer vision, medical imaging, wireless communication, and related applications.
 
 **Eyad Shaklab**
