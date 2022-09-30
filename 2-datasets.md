@@ -15,7 +15,7 @@ O2DTD is the first dataset on desert freespace detection, collected with six    
 <br>
 
 # <a href="/datasets/shuttle/">Khalifa University's Autonomous Shuttle (KUAS) Dataset</a>
-The dataset includes around twenty minutes of unlabeled data (A set of 8 LiDARs, Monochrome Cameras, IMU, GPS) captured from an EasyMile Gen2 Autonomous Shuttle that is deployed in Khalifa University, SAN Campus, UAE.
+The dataset includes around twenty minutes of unlabeled data (A set of 8 LiDARs, Monochrome Cameras, IMU, GPS) captured from an Autonomous Shuttle that is deployed and operated in Khalifa University, SAN Campus, UAE.
 
 <img src="/assets/KUAS_Dataset_cropped.png"/>
 
