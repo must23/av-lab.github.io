@@ -11,6 +11,7 @@ O2DTD is the first dataset on desert freespace detection, collected with six    
 <img src="/assets/O2DTD_Dataset_Demo_cropped.gif"/>
 
 
+<br>
 <hr>
 <br>
 
