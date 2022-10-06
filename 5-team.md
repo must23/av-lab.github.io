@@ -59,7 +59,7 @@ Email: Murad.Mebrahtu(at)ku.ac.ae
 >MSc CS; joined Fall 2021; funded under CIRA-2020-286 
     
 **Mustofa Basri**
-
+<img class="vil" src="/assets/img/Mustofa.png" />
 Mustofa Basri received B.S. degree in Electronics, Information and Communication Engineering from Osaka Sangyo University in 2018 and has work experience in Hitachi High-Tech Fine System Corporation as a Software Engineer in image processing, data collecting for machine learning before joining Khalifa University as a Graduate Master of Science in Electrical and Computer Engineering department. His research project focuses on autonomous navigation in an unstructured environment where he designs a path planner that considers wheel slip. The last book he read was about a guide to utilizing data like a pro, titled “the model thinker” by Scott E. Page, and he recommends it to everyone so that your weeekends will be fully booked. He also enjoys listening to science - economics podcasts on daily basis, and encourage people to send recommendations and collaboration to him at 100059870 at ku.ac.ae or mustofabasri at icloud.com
 >MSc ECE; joined Fall 2021; funded under KUCARS Theme 1 
     
