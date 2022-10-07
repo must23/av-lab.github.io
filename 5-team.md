@@ -38,7 +38,10 @@ Areg Karapetyan received the B.S. degree (with honours) in industrial electronic
 
 
 **Eyad Shaklab**
->Research Assistant
+>Research Engineer
+
+<img src="/assets/img/eyad.jpeg"/>
+Eyad Shaklab recieved his B.S. degree in computer science from the American University of Sharjah, UAE. He has been involved in research and development in robotics and autonomous vehicles since 2019.
 
 
 **Arjun Sharma**
