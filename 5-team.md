@@ -45,6 +45,8 @@ Bilal Hassan received the Ph.D. degree in Pattern Recognition and Intelligent Sy
 <img src="/assets/img/eyad.jpeg"/>
 Eyad Shaklab recieved his B.S. degree in computer science from the American University of Sharjah, UAE. He has been involved in research and development in robotics and autonomous vehicles since 2019.
 
+<br>
+<br>
 
 **Arjun Sharma**
 >Research Associate
