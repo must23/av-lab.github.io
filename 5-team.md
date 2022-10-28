@@ -49,6 +49,12 @@ Eyad Shaklab recieved his B.S. degree in computer science from the American Univ
 **Arjun Sharma**
 >Research Associate
 
+<img class="vill" src="/assets/img/arjun.jpg"/>
+Arjun is a Robotics Mechanical Engineer at Autonomous Vehicle Laboratory; He specializes in mechanisms and mechanical design of robotic systems. He graduated with an M.S. in Mechanical Engineering from Khalifa University. His research focuses on robotic systems' design, testing, and operation. Arjun has led hardware development for several novel robotic systems, including intelligent loading and unloading mechanisms, a drive-by-wire robotic system, and many more. 
+In addition, he has experience working in the international laboratory, such as the S2TS Lab for advanced microchannel heat exchangers at the University of Maryland College Park, USA. 
+
+
+
 <br>
 <hr>
 <br>
