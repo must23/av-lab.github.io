@@ -36,6 +36,11 @@ Areg Karapetyan received the B.S. degree (with honours) in industrial electronic
 **Dr. Bilal Hassan**
 >Postdoctoral Fellow
 
+<img src="/assets/img/BH.png"/>
+Bilal Hassan received the Ph.D. degree in Pattern Recognition and Intelligent Systems at Beihang University, China, in 2022. He is currently a Postdoctoral Fellow at Khalifa University, UAE. His research interest lies in computer vision, medical imaging, wireless communication, and related applications.
+
+<br>
+<br>
 
 **Eyad Shaklab**
 >Research Engineer
@@ -43,9 +48,17 @@ Areg Karapetyan received the B.S. degree (with honours) in industrial electronic
 <img src="/assets/img/eyad.jpeg"/>
 Eyad Shaklab recieved his B.S. degree in computer science from the American University of Sharjah, UAE. He has been involved in research and development in robotics and autonomous vehicles since 2019.
 
+<br>
+<br>
 
 **Arjun Sharma**
 >Research Associate
+
+<img class="vill" src="/assets/img/arjun.jpg"/>
+Arjun is a Robotics Mechanical Engineer at Autonomous Vehicle Laboratory; He specializes in mechanisms and mechanical design of robotic systems. He graduated with an M.S. in Mechanical Engineering from Khalifa University. His research focuses on robotic systems' design, testing, and operation. Arjun has led hardware development for several novel robotic systems, including intelligent loading and unloading mechanisms, a drive-by-wire robotic system, and many more. 
+In addition, he has experience working in the international laboratory, such as the S2TS Lab for advanced microchannel heat exchangers at the University of Maryland College Park, USA. 
+
+
 
 <br>
 <hr>
